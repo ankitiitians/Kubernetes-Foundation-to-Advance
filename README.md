@@ -1,6 +1,6 @@
 # Kubernetes-Foundation-to-Advance
 
-Week 1: Core Concepts (Foundation)
+# Week 1: Core Concepts (Foundation)
 •	Introduction to Kubernetes
 •	Kubernetes vs Docker Swarm
 •	Kubernetes Architecture (Control Plane, Worker Nodes)
@@ -12,7 +12,7 @@ Labs:
 •	Explore kubectl commands
 •	Create and switch namespaces
  
-Week 2: Advanced Core + Tooling
+# Week 2: Advanced Core + Tooling
 •	etcd introduction & backup basics
 •	API server overview
 •	Controller Manager overview
@@ -22,7 +22,7 @@ Labs:
 •	Run busybox for debugging
 •	Take etcd snapshot
  
-Week 3: Scheduling & Resource Management
+# Week 3: Scheduling & Resource Management
 •	Labels, Selectors, Annotations
 •	Node Selector, Affinity, Anti-Affinity
 •	Taints and Tolerations
@@ -34,7 +34,7 @@ Labs:
 •	Configure CPU/memory limits
 •	Create a CronJob for backups
  
-Week 4: Application Lifecycle
+# Week 4: Application Lifecycle
 •	ConfigMaps & Secrets
 •	Multi-container Pods (patterns)
 •	Init Containers
@@ -47,7 +47,7 @@ Labs:
 •	Test rolling update vs rollback
 •	Enable HPA scaling
  
-Week 5: Cluster Maintenance & Upgrades
+# Week 5: Cluster Maintenance & Upgrades
 •	Cluster provisioning (kubeadm, kind, minikube)
 •	Cluster upgrades
 •	etcd deep dive: restore, compaction
@@ -59,7 +59,7 @@ Labs:
 •	Backup and restore etcd
 •	Configure admission controller policy
  
-Week 6: Security Deep Dive
+# Week 6: Security Deep Dive
 •	TLS in Kubernetes
 •	Network Policies
 •	Pod Security Standards, Kyverno, OPA Gatekeeper
@@ -72,7 +72,7 @@ Labs:
 •	Deploy pod with restricted security context
 •	Scan image with Trivy
  
-Week 7: Networking & Storage
+# Week 7: Networking & Storage
 •	Kubernetes Networking Model
 •	kube-proxy (iptables vs ipvs)
 •	CNI plugins: Calico, Cilium, Flannel
@@ -86,7 +86,7 @@ Labs:
 •	Create PVC and bind to pod
 •	Test service-to-service communication
  
-Week 8: Advanced & Real-World
+# Week 8: Advanced & Real-World
 •	CRDs & Operators
 •	API Aggregation Layer
 •	GitOps (ArgoCD, FluxCD)
@@ -99,7 +99,7 @@ Labs:
 •	Setup GitOps with ArgoCD
 •	Deploy canary release with Argo Rollouts
  
-Week 9: Observability & Troubleshooting
+# Week 9: Observability & Troubleshooting
 •	Metrics: metrics-server, kube-state-metrics, Prometheus Operator
 •	Logging: Fluentd, Fluent Bit, Loki, EFK
 •	Distributed tracing: Jaeger, OpenTelemetry
@@ -111,7 +111,7 @@ Labs:
 •	Debug CrashLoopBackOff pod
 •	Debug DNS resolution issue
  
-Week 10: Interview & Exam Prep
+# Week 10: Interview & Exam Prep
 •	CKA/CKAD/CKS domains
 •	Common interview questions
 •	Debugging flows
